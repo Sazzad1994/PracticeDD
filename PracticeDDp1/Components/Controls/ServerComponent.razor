@@ -1,0 +1,55 @@
+﻿@inject NavigationManager navigationManager
+
+
+@if(Server is not null)
+{
+    <li @key="Server.ServerId">
+        @Server.ServerName is located in @Server.LocatedCity in
+        <span style="color:@(Server.IsOnline ? "red":"Green")">
+            @(Server.IsOnline ? "offline" : "online")
+        </span>
+        <a href="/Servers/@Server.ServerId" class="btn btn-link"> Edit </a>
+      @*   <button type="button" class="btn btn-link" @onclick="@(()=>{this.EditingServer=!this.EditingServer;})" > Edit </button> *@
+        &nbsp;
+        @if (Server.IsOnline)
+        {
+            <button type="button" 
+            class="btn btn-outline-danger"
+            @onclick="@(()=>{Server.IsOnline=false;})">Turn Off</button>
+        }
+        else
+        {
+            <button type="button" 
+            class="btn btn-outline-success" 
+            @onclick="@(()=>{Server.IsOnline=true;})">Turn On</button>
+        }
+        &nbsp;
+        <EditForm Model="Server"
+                  FormName="@($"form-Server-{Server.ServerId}")"
+                  OnValidSubmit="@(() => {DeleteServer(@Server.ServerId);})">
+            <button type="submit" class="btn btn-warning">
+                Delete
+            </button>
+        </EditForm>
+        @* @if (EditingServer)
+        {
+            <PracticeDDp1.Components.Pages.EditServer Id="this.Server.ServerId"></PracticeDDp1.Components.Pages.EditServer>
+        } *@
+    </li>
+}
+
+
+@code {
+    // private bool EditingServer = false; 
+    [Parameter]
+    public ServerEntity? Server { get; set; }
+
+    private void DeleteServer(int id)
+    {
+        if (id > 0)
+        {
+            serverRepo.DeleteServer(id);
+        }
+        navigationManager.NavigateTo("/Servers", true);
+    }
+}

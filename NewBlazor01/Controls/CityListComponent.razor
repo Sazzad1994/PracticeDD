@@ -1,0 +1,11 @@
+﻿@using NewBlazor01.Models
+
+
+@if(Cities is not null && Cities.Count > 0)
+{
+    <CityComponent></CityComponent>
+}
+
+@code {
+    public List<string>? Cities = CitiesRepo.GetCities();
+}

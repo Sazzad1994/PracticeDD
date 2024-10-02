@@ -1,0 +1,48 @@
+﻿
+@using NewBlazor01.Models
+
+
+<h3>Server Component</h3>
+
+@if(server is not null)
+{
+    <li @key=server.ServerId>
+        @server.ServerName is located in @server.LocatedCity in
+        <span style="color:@(server.IsOnline ? "Red":"Green")">
+            @(server.IsOnline ? "offline":"online")
+        </span>
+        &nbsp;
+        @if (server.IsOnline)
+        {
+            <button class="btn btn-outline-danger"
+            onclick="@(()=>{server.IsOnline=false;})">
+              Turn off
+            </button>
+        }
+        else
+        {
+            <button class="btn btn-outline-success"
+                    onclick="@(()=>{server.IsOnline=true;})">
+                Turn on
+            </button>
+        }
+       
+    </li>
+}
+
+
+@code {
+    [Parameter]
+    public Server? server { get; set; }
+
+    private void DeleteServer(int id)
+    {
+        if (id>0)
+        {
+            serverRepo.DeleteServer(id);
+        }
+        
+    }
+
+   
+}

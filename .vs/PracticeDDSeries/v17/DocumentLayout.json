@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43D85539-B797-4FE8-BB6E-3CEF43E85EEE}|NewBlazor01\\NewBlazor01.csproj|c:\\users\\user\\source\\repos\\practiceddseries\\newblazor01\\components\\pages\\mainserverpagecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43D85539-B797-4FE8-BB6E-3CEF43E85EEE}|NewBlazor01\\NewBlazor01.csproj|solutionrelative:newblazor01\\components\\pages\\mainserverpagecomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D85539-B797-4FE8-BB6E-3CEF43E85EEE}|NewBlazor01\\NewBlazor01.csproj|c:\\users\\user\\source\\repos\\practiceddseries\\newblazor01\\components\\pages\\editserver.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43D85539-B797-4FE8-BB6E-3CEF43E85EEE}|NewBlazor01\\NewBlazor01.csproj|solutionrelative:newblazor01\\components\\pages\\editserver.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D85539-B797-4FE8-BB6E-3CEF43E85EEE}|NewBlazor01\\NewBlazor01.csproj|c:\\users\\user\\source\\repos\\practiceddseries\\newblazor01\\components\\pages\\addservercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43D85539-B797-4FE8-BB6E-3CEF43E85EEE}|NewBlazor01\\NewBlazor01.csproj|solutionrelative:newblazor01\\components\\pages\\addservercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639F0B98-95DD-4E56-817A-7521147FA20D}|PracticeDDp1\\PracticeDDp1.csproj|c:\\users\\user\\source\\repos\\practiceddseries\\practiceddp1\\components\\pages\\addserver.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{639F0B98-95DD-4E56-817A-7521147FA20D}|PracticeDDp1\\PracticeDDp1.csproj|solutionrelative:practiceddp1\\components\\pages\\addserver.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639F0B98-95DD-4E56-817A-7521147FA20D}|PracticeDDp1\\PracticeDDp1.csproj|c:\\users\\user\\source\\repos\\practiceddseries\\practiceddp1\\components\\pages\\editserver.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{639F0B98-95DD-4E56-817A-7521147FA20D}|PracticeDDp1\\PracticeDDp1.csproj|solutionrelative:practiceddp1\\components\\pages\\editserver.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D85539-B797-4FE8-BB6E-3CEF43E85EEE}|NewBlazor01\\NewBlazor01.csproj|c:\\users\\user\\source\\repos\\practiceddseries\\newblazor01\\controls\\citycomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43D85539-B797-4FE8-BB6E-3CEF43E85EEE}|NewBlazor01\\NewBlazor01.csproj|solutionrelative:newblazor01\\controls\\citycomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639F0B98-95DD-4E56-817A-7521147FA20D}|PracticeDDp1\\PracticeDDp1.csproj|c:\\users\\user\\source\\repos\\practiceddseries\\practiceddp1\\components\\controls\\citylistcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{639F0B98-95DD-4E56-817A-7521147FA20D}|PracticeDDp1\\PracticeDDp1.csproj|solutionrelative:practiceddp1\\components\\controls\\citylistcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639F0B98-95DD-4E56-817A-7521147FA20D}|PracticeDDp1\\PracticeDDp1.csproj|c:\\users\\user\\source\\repos\\practiceddseries\\practiceddp1\\components\\pages\\serverlistcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{639F0B98-95DD-4E56-817A-7521147FA20D}|PracticeDDp1\\PracticeDDp1.csproj|solutionrelative:practiceddp1\\components\\pages\\serverlistcomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43D85539-B797-4FE8-BB6E-3CEF43E85EEE}|NewBlazor01\\NewBlazor01.csproj|c:\\users\\user\\source\\repos\\practiceddseries\\newblazor01\\controls\\servercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{43D85539-B797-4FE8-BB6E-3CEF43E85EEE}|NewBlazor01\\NewBlazor01.csproj|solutionrelative:newblazor01\\controls\\servercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{639F0B98-95DD-4E56-817A-7521147FA20D}|PracticeDDp1\\PracticeDDp1.csproj|c:\\users\\user\\source\\repos\\practiceddseries\\practiceddp1\\components\\servercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{639F0B98-95DD-4E56-817A-7521147FA20D}|PracticeDDp1\\PracticeDDp1.csproj|solutionrelative:practiceddp1\\components\\servercomponent.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AddServerComponent.razor",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\NewBlazor01\\Components\\Pages\\AddServerComponent.razor",
+              "RelativeDocumentMoniker": "NewBlazor01\\Components\\Pages\\AddServerComponent.razor",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\NewBlazor01\\Components\\Pages\\AddServerComponent.razor",
+              "RelativeToolTip": "NewBlazor01\\Components\\Pages\\AddServerComponent.razor",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAAAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T17:54:43.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddServer.razor",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\Components\\Pages\\AddServer.razor",
+              "RelativeDocumentMoniker": "PracticeDDp1\\Components\\Pages\\AddServer.razor",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\Components\\Pages\\AddServer.razor",
+              "RelativeToolTip": "PracticeDDp1\\Components\\Pages\\AddServer.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADsAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T17:54:06.655Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EditServer.razor",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\NewBlazor01\\Components\\Pages\\EditServer.razor",
+              "RelativeDocumentMoniker": "NewBlazor01\\Components\\Pages\\EditServer.razor",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\NewBlazor01\\Components\\Pages\\EditServer.razor",
+              "RelativeToolTip": "NewBlazor01\\Components\\Pages\\EditServer.razor",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAAEgAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T16:13:36.465Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainServerPageComponent.razor",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\NewBlazor01\\Components\\Pages\\MainServerPageComponent.razor",
+              "RelativeDocumentMoniker": "NewBlazor01\\Components\\Pages\\MainServerPageComponent.razor",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\NewBlazor01\\Components\\Pages\\MainServerPageComponent.razor",
+              "RelativeToolTip": "NewBlazor01\\Components\\Pages\\MainServerPageComponent.razor",
+              "ViewState": "AQIAACcAAAAAAAAAAAAAACIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T13:31:46.35Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EditServer.razor",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\Components\\Pages\\EditServer.razor",
+              "RelativeDocumentMoniker": "PracticeDDp1\\Components\\Pages\\EditServer.razor",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\Components\\Pages\\EditServer.razor",
+              "RelativeToolTip": "PracticeDDp1\\Components\\Pages\\EditServer.razor",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAEAAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T13:58:29.802Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CityListComponent.razor",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\Components\\Controls\\CityListComponent.razor",
+              "RelativeDocumentMoniker": "PracticeDDp1\\Components\\Controls\\CityListComponent.razor",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\Components\\Controls\\CityListComponent.razor",
+              "RelativeToolTip": "PracticeDDp1\\Components\\Controls\\CityListComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T13:51:33.532Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CityComponent.razor",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\NewBlazor01\\Controls\\CityComponent.razor",
+              "RelativeDocumentMoniker": "NewBlazor01\\Controls\\CityComponent.razor",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\NewBlazor01\\Controls\\CityComponent.razor",
+              "RelativeToolTip": "NewBlazor01\\Controls\\CityComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T13:50:55.995Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ServerComponent.razor",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\NewBlazor01\\Controls\\ServerComponent.razor",
+              "RelativeDocumentMoniker": "NewBlazor01\\Controls\\ServerComponent.razor",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\NewBlazor01\\Controls\\ServerComponent.razor",
+              "RelativeToolTip": "NewBlazor01\\Controls\\ServerComponent.razor",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACUAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T13:33:14.566Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServerListComponent.razor",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\Components\\Pages\\ServerListComponent.razor",
+              "RelativeDocumentMoniker": "PracticeDDp1\\Components\\Pages\\ServerListComponent.razor",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\Components\\Pages\\ServerListComponent.razor",
+              "RelativeToolTip": "PracticeDDp1\\Components\\Pages\\ServerListComponent.razor",
+              "ViewState": "AQIAADcAAAAAAAAAAAAowEEAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T11:56:49.864Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ServerComponent.razor",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\Components\\ServerComponent.razor",
+              "RelativeDocumentMoniker": "PracticeDDp1\\Components\\ServerComponent.razor",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\Components\\ServerComponent.razor",
+              "RelativeToolTip": "PracticeDDp1\\Components\\ServerComponent.razor",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-09-09T11:56:26.17Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

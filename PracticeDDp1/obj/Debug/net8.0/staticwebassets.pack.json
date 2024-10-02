@@ -1,0 +1,61 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\PracticeDDp1.bundle.scp.css",
+      "PackagePath": "staticwebassets\\PracticeDDp1.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\wwwroot\\images\\Calgary.png",
+      "PackagePath": "staticwebassets\\images\\Calgary.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\wwwroot\\images\\Halifax.png",
+      "PackagePath": "staticwebassets\\images\\Halifax.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\wwwroot\\images\\Ottawa.png",
+      "PackagePath": "staticwebassets\\images\\Ottawa.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\wwwroot\\images\\montreal.png",
+      "PackagePath": "staticwebassets\\images\\montreal.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\source\\repos\\PracticeDDSeries\\PracticeDDp1\\wwwroot\\images\\toronto.png",
+      "PackagePath": "staticwebassets\\images\\toronto.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.PracticeDDp1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.PracticeDDp1.props",
+      "PackagePath": "build\\PracticeDDp1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.PracticeDDp1.props",
+      "PackagePath": "buildMultiTargeting\\PracticeDDp1.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.PracticeDDp1.props",
+      "PackagePath": "buildTransitive\\PracticeDDp1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

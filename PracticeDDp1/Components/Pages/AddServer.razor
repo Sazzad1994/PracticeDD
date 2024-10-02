@@ -1,0 +1,61 @@
+﻿@inject NavigationManager navigationManager
+@page "/servers/add"
+<h3>Add Server</h3>
+
+<EditForm Model="server" FormName="formServer" OnValidSubmit="Submit">
+    <DataAnnotationsValidator></DataAnnotationsValidator>
+
+    <FieldComponent>
+
+    </FieldComponent>
+
+    <div class="row mb-3">
+        <div class="col-2">
+            <label class="col-form-label">Name</label>
+        </div>
+        <div class="col-6">
+            <InputText @bind-Value="@server.ServerName" class="form-control"></InputText>
+        </div>
+        <div class="col">
+            <ValidationMessage For="()=>server.ServerName"></ValidationMessage>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-2">
+            <label class="col-form-label">Located City</label>
+        </div>
+        <div class="col-6">
+            <InputText @bind-Value="@server.LocatedCity" class="form-control"></InputText>
+        </div>
+        <div class="col">
+            <ValidationMessage For="()=>server.LocatedCity"></ValidationMessage>
+        </div>
+    </div>
+    <div class="row mb-3">
+        <div class="col-2">
+            <label class="col-form-label">Online</label>
+        </div>
+        <div class="col-6">
+            <InputCheckbox @bind-Value="@server.IsOnline"></InputCheckbox>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-secondary"> New Server</button>
+    &nbsp;
+    <a href="/servers" class="btn btn-primary"> close</a>
+
+  
+</EditForm>
+@code {
+    [SupplyParameterFromForm]
+    private ServerEntity server { get; set; } = new ServerEntity() { IsOnline = false };
+
+    public void Submit()
+    {
+        if (server is not null)
+        {
+            serverRepo.AddServer(server);
+        }
+        navigationManager.NavigateTo("/servers",true);
+        //navigationManager.NavigateTo("/servers/back_form/{this.server?.city}");
+    }
+}

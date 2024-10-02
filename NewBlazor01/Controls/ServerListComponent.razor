@@ -1,0 +1,17 @@
+﻿@using NewBlazor01.Models
+
+
+@if(servers is not null && servers.Count > 0)
+{
+    <ul>
+       @*     <Virtualize Items="this.servers" context="servers">
+            <ServerComponent server="servers"></ServerComponent>
+        </Virtualize>  *@
+        <ServerComponent></ServerComponent>
+    </ul>
+    
+}
+
+@code {
+    private List<Server>? servers;
+}

@@ -1,0 +1,126 @@
+﻿@page "/servers"
+@using PracticeDDp1.Components.Controls
+@rendermode RenderMode.InteractiveServer
+@inject NavigationManager navigationManager
+
+
+@* <div class="container-fluid text-center">
+    <div class="row w-50">
+        @foreach (var city in Cities)
+        {
+            <div class="col">
+                <div class="card @(selectcity.Equals(city,StringComparison.OrdinalIgnoreCase)? "border-primary":"")">
+                    <img src="@($"_content/PracticeDDp1/images/{city}.png")" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <button class="btn btn-primary" type="button" @onclick="@(()=>{SelectedCity(city);})">@city</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div> *@
+
+<CityListComponent 
+CityCallback="HandleCitySelection"
+@ref="cityListComponent"></CityListComponent>
+<br />
+<SearchComponent @ref="searchComponent" filterCallBack="HandleSearchSelection" Serverfilter="@SearchFilter"></SearchComponent>
+<br />
+<ServerListNewComponent 
+@rendermode="InteractiveServer" 
+cityName="@this.selectcity" 
+SearchFilter="@SearchFilter"></ServerListNewComponent>
+
+
+@* <br />
+@selectcity; *@
+
+
+
+@* <ul>
+    @foreach (var server in servers)
+    {
+        <li @key="server.ServerId">@server.ServerName is located in @server.LocatedCity in 
+            <span style="color:@(server.IsOnline ? "red":"Green")">
+                @(server.IsOnline ? "offline":"online")
+            </span>
+            <a href="/servers/@server.ServerId" class="btn btn-link"> Edit </a>
+           &nbsp;
+           <EditForm Model="server" 
+               FormName="@($"form-server-{server.ServerId}")"
+               OnValidSubmit="@(() => {DeleteServer(@server.ServerId);})">
+                <button type="submit" class="btn btn-warning"> 
+                    Delete </button>
+           </EditForm>
+            
+        </li>   
+        
+    }
+</ul> *@
+
+<a href="/servers/add" class="btn btn-primary"> Add</a>
+
+@code {
+    // private List<ServerEntity> servers = serverRepo.GetServerByCity("dhaka");
+    // private List<ServerEntity>servers=serverRepo.GetServers();
+    // private List<string> Cities = CitiesRepo.GetCities();
+
+    // private void DeleteServer(int id)
+    // {
+    //     if (id > 0)
+    //     {
+    //         serverRepo.DeleteServer(id);
+    //     }
+    //     navigationManager.NavigateTo("/servers");
+    // }
+
+    //private string selectcity = "Dhaka";
+    // private void SelectedCity(string city)
+    // {
+    //     this.selectcity = city;
+    //     this.servers = serverRepo.GetServerByCity(this.selectcity);
+    // }
+
+    // private string _serverfilter = "";
+    // private string Serverfilter { get =>_serverfilter; set
+    //     {
+    //         _serverfilter = value;
+    //         this.servers = serverRepo.SearchServer(_serverfilter);
+    //     }
+    // }
+
+    // private void HandleServerFilterSearch(ChangeEventArgs args)
+    // {
+    //     serverfilter = args.Value?.ToString() ?? string.Empty;
+    // }
+    // private void HandleSearch()
+    // {
+    //     //  this.servers = serverRepo.SearchServer(serverfilter);
+    //     this.selectcity = string.Empty;
+    // }
+
+    private CityListComponent? cityListComponent;
+    private SearchComponent? searchComponent;
+
+    private string selectcity = "Dhaka";
+
+    public string SearchFilter = "";
+    private void HandleCitySelection(string cityName)
+    {
+        //  this.servers = serverRepo.SearchServer(serverfilter);
+        // this.selectcity = string.Empty;
+        selectcity = cityName;
+        searchComponent?.ClearSelection();
+
+
+    }
+    private void HandleSearchSelection(string searchFilter)
+    {
+        //  this.servers = serverRepo.SearchServer(serverfilter);
+        // this.selectcity = string.Empty;
+        this.selectcity = searchFilter;
+        cityListComponent?.ClearSelection();
+
+    }
+    
+}

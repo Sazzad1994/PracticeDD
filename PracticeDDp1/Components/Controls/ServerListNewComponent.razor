@@ -1,0 +1,37 @@
+﻿@using PracticeDDp1.Models
+@inject NavigationManager navigationManager
+
+
+@if(servers is not null && servers.Count>0)
+{
+<ul>
+    <Virtualize Items="this.servers" Context="server">
+            <PracticeDDp1.Components.Controls.ServerComponent Server="server"></PracticeDDp1.Components.Controls.ServerComponent>
+    </Virtualize>
+</ul>
+}
+
+@code {
+    [Parameter]
+    public string? cityName { get; set; }
+    [Parameter]
+    public string SearchFilter { get; set; } = "";
+    private List<ServerEntity>? servers;
+    protected override void OnParametersSet()
+    {
+        if (string.IsNullOrWhiteSpace(this.SearchFilter))
+        {
+            servers = serverRepo.GetServerByCity(cityName ?? "dhaka");
+        }
+        else
+        {
+            servers = serverRepo.SearchServer(this.SearchFilter);
+        }
+
+   
+
+    }
+
+    
+   
+}

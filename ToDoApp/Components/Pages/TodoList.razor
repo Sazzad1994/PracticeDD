@@ -1,0 +1,22 @@
+﻿@page "/todolist"
+@using ToDoApp.Models
+
+<h3>To do List</h3>
+
+@if(todolitems is not null && todolitems.Count> 0)
+{
+    <ul>
+        @foreach(var item in todolitems)
+        {
+            <li @key="item.Id">@item.Name</li>
+        }
+    </ul>
+}
+
+
+
+@code {
+    private List<Todolitem> todolitems = TodoItemRepository.GetItems();
+
+}
+ 

@@ -1,0 +1,24 @@
+﻿<div class="col">
+    <div class="card @(selectcity.Equals(city,StringComparison.OrdinalIgnoreCase)? "border-primary":"")">
+        <img src="@($"_content/PracticeDDp1/images/{city}.png")" class="card-img-top" alt="...">
+        <div class="card-body">
+            <button class="btn btn-primary" type="button" @onclick="@(()=>{selectedCity(city);})">@city</button>
+        </div>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public string? selectcity { get; set; } = "toronto";
+    [Parameter]
+    public string? city { get; set; } = "";
+    [Parameter]
+    public EventCallback<string> CityCallback { get; set; }
+
+
+    private void selectedCity(string cityName)
+    {
+        //this.city = cityName;
+        CityCallback.InvokeAsync(cityName);
+    }
+}
